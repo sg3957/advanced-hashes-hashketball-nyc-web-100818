@@ -187,4 +187,8 @@ def player_numbers(teamName)
     if location[:team_name] == teamName 
       team_data.each do |player, stats|
         jersey_nums << player[:number]
+      end
+    end
+  end
+  jersey_nums
 end
