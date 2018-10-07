@@ -170,7 +170,7 @@ def team_colors(teamName)
      # location[:colors]
     end
   end
-colors
+colors.flatten
 end
 
 def team_names
