@@ -168,8 +168,6 @@ def team_colors(teamName)
     if location[:team_name] == teamName
       colors = location[:colors]
      # location[:colors]
-   else
-     continue
     end
   end
 colors.flatten
