@@ -166,7 +166,7 @@ def team_colors(teamName)
   colors = []
   game_hash.collect do |location|
     if location[:team_name] == teamName
-      colors << location[:colors]
+      colors = location[:colors]
      # location[:colors]
     end
   end
