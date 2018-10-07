@@ -176,7 +176,7 @@ end
 def team_names
   names = []
   game_hash.each do |location, team_data|
-    names << team_data[:team_name].value
+    names << team_data[:team_name]
   end
   names
 end
